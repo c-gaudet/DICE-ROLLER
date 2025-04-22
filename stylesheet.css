@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+* {
+    font-family: "UnifrakturCook", Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(134, 109, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 24px;
+    align-items: center;
+}
+
+#rollbutton {
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #a66100;
+    background-color: #ffdd33;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #5c2e0084;
+}
+
+#rollbutton:hover{
+    background-color: #fff0a4;
+
+}
+
+#rollbutton:active {
+    box-shadow: 0 5px #5c2e0084;
+    transform: translateY(4px);
+
+}
+
+.dicebg {
+    width:300px;
+    height: 325px;
+    margin: 16px;
+    background-image: url("./images/d20.jpg");
+    background-size: 300px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+#rollresult {
+    text-align: center;
+    font-size: 48px;
+}
